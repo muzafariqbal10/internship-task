@@ -1,0 +1,154 @@
+.right{
+    width: 70%;
+    height: 100vh;
+    background-image: url(img/login_promo_desktop_v20240327\ \(1\).svg);
+    background-repeat: no-repeat;
+}
+.right>h1{
+    color: aliceblue;
+    width: 420px;
+    font-size: 43px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.right>p{
+    width: 360px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.right>span{
+    margin-left: 150px;
+    color: white;
+    width: 360px;
+    font-size: 20px;
+}
+.right>h3{
+    margin-left: 150px;
+    color: white;
+    width: 360px;
+    font-size: 18px;
+}
+.right>hr{
+    width: 137px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 15px;
+}
+.right>h3>i{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 106vh;
+}
+.left>h1{
+width: 500px;
+font-size: 37px;
+margin-left: 30px;
+color:rgb(35, 121, 78);
+font-weight: 300;
+}
+.left>p{
+font-size: 20px;
+margin-left: 30px;
+margin-top: -10px;
+font-weight:bold;
+
+}
+.left>p>span{
+color: rgb(63, 63, 199);
+}
+.left>.gogle{
+width: 320px;
+height: 50px;
+align-items: center;
+text-align: center;
+border: 2px solid rgb(112, 101, 101);
+margin-left: 25px;
+border-radius: 5px;
+display: flex;
+
+
+} 
+.left>.gogle>h3{
+margin-left: 105px;
+}
+.left>.gogle>img{
+position: relative;
+left: 100px;
+}
+.left>.git{
+width: 320px;
+height: 50px;
+align-items: center;
+text-align: center;
+border: 2px solid rgb(112, 101, 101);
+margin-left: 25px;
+border-radius: 5px;
+
+display: flex;
+margin-top: 15px;
+}
+.left>.git>h3{
+margin-left:105px;
+font-size: 17px;
+
+}
+.left>.git>img{
+position: relative;
+left: 100px;
+}
+
+.left>span {
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 90px;
+    position: relative;
+    top: 40px;
+}
+
+.left>#fname {
+    width: 320px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(112, 101, 101);
+    margin-left: 25px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 80px;
+
+}
+.left>label{
+    font-size: 17px;
+    position: relative;
+    top: 76px;
+    right:235px ;
+    font-weight: 500;
+    
+}
+.left>button{
+    position: relative;
+    top: 15px;
+    width: 100px;
+    height: 30px;
+    left: 30px;
+    background-color: rgb(220, 232, 243);
+    font-size: 15px;
+    border-radius: 10px;
+
+}
