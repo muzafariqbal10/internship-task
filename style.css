@@ -152,3 +152,27 @@ left: 100px;
     border-radius: 10px;
 
 }
+
+
+.logo>img{
+    position: relative;
+    top: 90px;
+    left: 15px;
+    width: 50px;
+}
+.logo>P{
+    position: relative;
+    top: 12px;
+    left: 60px;
+    font-size: 35px;
+color:rgb(35, 121, 78);
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .right{
+   display: none;
+    }
+}
