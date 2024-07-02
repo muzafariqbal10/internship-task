@@ -300,8 +300,8 @@ color:rgb(35, 121, 78);
     }
 
     .left{
-        width: 100%;
-        height: 130vh;
+        width: 90%;
+        height: 110vh;
     }
     .left>h1{
     width: 360px;
