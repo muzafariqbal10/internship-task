@@ -289,3 +289,127 @@ color:rgb(35, 121, 78);
 
 }
 }
+
+
+
+
+
+@media only screen and (max-width: 400px){
+    .right{
+   display: none;
+    }
+
+    .left{
+        width: 100%;
+        height: 130vh;
+    }
+    .left>h1{
+    width: 360px;
+    font-size: 32px;
+    margin-left: 30px;
+    color:rgb(35, 121, 78);
+    font-weight: 300;
+    }
+    
+
+    .left>p{
+        width: 360px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: -10px;
+        font-weight:bold;
+        
+        }
+        .left>p>span{
+        color: rgb(63, 63, 199);
+        }
+        .left>.gogle{
+        width: 300px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border: 2px solid rgb(112, 101, 101);
+        margin-left: 25px;
+        border-radius: 5px;
+        display: flex;
+        
+        
+        } 
+
+        
+.left>.gogle>h3{
+    margin-left: 110px;
+    }
+    .left>.gogle>img{
+    position: relative;
+    left: 100px;
+    }
+
+
+    .left>.git{
+        width: 300px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        border: 2px solid rgb(112, 101, 101);
+        margin-left: 25px;
+        border-radius: 5px;
+        display: flex;
+        margin-top: 15px;
+        }
+        .left>.git>h3{
+        margin-left:103px;
+        font-size: 17px;
+        
+        }
+        .left>.git>img{
+        position: relative;
+        left: 100px;
+        }
+
+
+        
+.left>span {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 100px;
+    position: relative;
+    top: 27px;
+}
+
+
+
+
+
+.left>#fname {
+    width: 300px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(112, 101, 101);
+    margin-left: 25px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 80px;
+
+}
+.left>label{
+    font-size: 19px;
+    position: relative;
+    top: 76px;
+    right:265px ;
+    font-weight: 500;
+    
+}
+.left>button{
+    position: relative;
+    top: 30px;
+    width: 300px;
+    height: 40px;
+    left: 25px;
+    background-color: rgba(228, 221, 221, 0.995);
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+}
